@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A34E8E91AA83D7000103F8D /* Zhuge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */; };
+		3A34E8EA1AA83D7000103F8D /* ZhugeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */; };
+		3A34E8EB1AA83D7000103F8D /* ZhugePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF231A89B31D00D2AA93 /* ZhugePush.m */; };
+		3A77DEEE1A89B31200D2AA93 /* ZhugeAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A77DEED1A89B31200D2AA93 /* ZhugeAnalytics.h */; };
+		3A77DEF01A89B31200D2AA93 /* ZhugeAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DEEF1A89B31200D2AA93 /* ZhugeAnalytics.m */; };
+		3A77DF401A89B3C000D2AA93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF3F1A89B3C000D2AA93 /* UIKit.framework */; };
+		3A77DF421A89B3C600D2AA93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF411A89B3C600D2AA93 /* Foundation.framework */; };
+		3A77DF441A89B3CB00D2AA93 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF431A89B3CB00D2AA93 /* SystemConfiguration.framework */; };
+		3A77DF461A89B3D100D2AA93 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF451A89B3D100D2AA93 /* CoreTelephony.framework */; };
+		3A77DF481A89B3D700D2AA93 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF471A89B3D700D2AA93 /* Accelerate.framework */; };
+		3A77DF4A1A89B3DC00D2AA93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF491A89B3DC00D2AA93 /* CoreGraphics.framework */; };
+		3A77DF4C1A89B3E200D2AA93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF4B1A89B3E200D2AA93 /* QuartzCore.framework */; };
+		3A77DF4F1A89BA4D00D2AA93 /* NotificationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF4E1A89BA4D00D2AA93 /* NotificationChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A77DEE81A89B31200D2AA93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3A77DEEE1A89B31200D2AA93 /* ZhugeAnalytics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A77DEEA1A89B31200D2AA93 /* libZhugeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZhugeAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A77DEED1A89B31200D2AA93 /* ZhugeAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhugeAnalytics.h; sourceTree = "<group>"; };
+		3A77DEEF1A89B31200D2AA93 /* ZhugeAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhugeAnalytics.m; sourceTree = "<group>"; };
+		3A77DEF81A89B31200D2AA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A77DF1E1A89B31D00D2AA93 /* Zhuge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zhuge.h; sourceTree = "<group>"; };
+		3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zhuge.m; sourceTree = "<group>"; };
+		3A77DF201A89B31D00D2AA93 /* ZhugeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhugeConfig.h; sourceTree = "<group>"; };
+		3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhugeConfig.m; sourceTree = "<group>"; };
+		3A77DF221A89B31D00D2AA93 /* ZhugePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhugePush.h; sourceTree = "<group>"; };
+		3A77DF231A89B31D00D2AA93 /* ZhugePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhugePush.m; sourceTree = "<group>"; };
+		3A77DF3E1A89B32200D2AA93 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		3A77DF3F1A89B3C000D2AA93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A77DF411A89B3C600D2AA93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A77DF431A89B3CB00D2AA93 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A77DF451A89B3D100D2AA93 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3A77DF471A89B3D700D2AA93 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3A77DF491A89B3DC00D2AA93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A77DF4B1A89B3E200D2AA93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A77DF4D1A89BA4D00D2AA93 /* NotificationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationChecker.h; sourceTree = "<group>"; };
+		3A77DF4E1A89BA4D00D2AA93 /* NotificationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A77DEE71A89B31200D2AA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A77DF4C1A89B3E200D2AA93 /* QuartzCore.framework in Frameworks */,
+				3A77DF4A1A89B3DC00D2AA93 /* CoreGraphics.framework in Frameworks */,
+				3A77DF481A89B3D700D2AA93 /* Accelerate.framework in Frameworks */,
+				3A77DF461A89B3D100D2AA93 /* CoreTelephony.framework in Frameworks */,
+				3A77DF441A89B3CB00D2AA93 /* SystemConfiguration.framework in Frameworks */,
+				3A77DF421A89B3C600D2AA93 /* Foundation.framework in Frameworks */,
+				3A77DF401A89B3C000D2AA93 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A77DEE11A89B31200D2AA93 = {
+			isa = PBXGroup;
+			children = (
+				3A77DF4B1A89B3E200D2AA93 /* QuartzCore.framework */,
+				3A77DF491A89B3DC00D2AA93 /* CoreGraphics.framework */,
+				3A77DF471A89B3D700D2AA93 /* Accelerate.framework */,
+				3A77DF451A89B3D100D2AA93 /* CoreTelephony.framework */,
+				3A77DF431A89B3CB00D2AA93 /* SystemConfiguration.framework */,
+				3A77DF411A89B3C600D2AA93 /* Foundation.framework */,
+				3A77DF3F1A89B3C000D2AA93 /* UIKit.framework */,
+				3A77DEEC1A89B31200D2AA93 /* ZhugeAnalytics */,
+				3A77DEF61A89B31200D2AA93 /* ZhugeAnalyticsTests */,
+				3A77DEEB1A89B31200D2AA93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A77DEEB1A89B31200D2AA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A77DEEA1A89B31200D2AA93 /* libZhugeAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A77DEEC1A89B31200D2AA93 /* ZhugeAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				3A77DF4D1A89BA4D00D2AA93 /* NotificationChecker.h */,
+				3A77DF4E1A89BA4D00D2AA93 /* NotificationChecker.m */,
+				3A77DF1D1A89B31D00D2AA93 /* Zhuge */,
+				3A77DF3E1A89B32200D2AA93 /* FlashRuntimeExtensions.h */,
+				3A77DEED1A89B31200D2AA93 /* ZhugeAnalytics.h */,
+				3A77DEEF1A89B31200D2AA93 /* ZhugeAnalytics.m */,
+			);
+			path = ZhugeAnalytics;
+			sourceTree = "<group>";
+		};
+		3A77DEF61A89B31200D2AA93 /* ZhugeAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A77DEF71A89B31200D2AA93 /* Supporting Files */,
+			);
+			path = ZhugeAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		3A77DEF71A89B31200D2AA93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A77DEF81A89B31200D2AA93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A77DF1D1A89B31D00D2AA93 /* Zhuge */ = {
+			isa = PBXGroup;
+			children = (
+				3A77DF1E1A89B31D00D2AA93 /* Zhuge.h */,
+				3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */,
+				3A77DF201A89B31D00D2AA93 /* ZhugeConfig.h */,
+				3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */,
+				3A77DF221A89B31D00D2AA93 /* ZhugePush.h */,
+				3A77DF231A89B31D00D2AA93 /* ZhugePush.m */,
+			);
+			name = Zhuge;
+			path = "zhuge-ios/Zhuge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A77DEE91A89B31200D2AA93 /* ZhugeAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A77DEFB1A89B31200D2AA93 /* Build configuration list for PBXNativeTarget "ZhugeAnalytics" */;
+			buildPhases = (
+				3A77DEE61A89B31200D2AA93 /* Sources */,
+				3A77DEE71A89B31200D2AA93 /* Frameworks */,
+				3A77DEE81A89B31200D2AA93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhugeAnalytics;
+			productName = ZhugeAnalytics;
+			productReference = 3A77DEEA1A89B31200D2AA93 /* libZhugeAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A77DEE21A89B31200D2AA93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					3A77DEE91A89B31200D2AA93 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A77DEE51A89B31200D2AA93 /* Build configuration list for PBXProject "ZhugeAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A77DEE11A89B31200D2AA93;
+			productRefGroup = 3A77DEEB1A89B31200D2AA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A77DEE91A89B31200D2AA93 /* ZhugeAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A77DEE61A89B31200D2AA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A34E8E91AA83D7000103F8D /* Zhuge.m in Sources */,
+				3A34E8EA1AA83D7000103F8D /* ZhugeConfig.m in Sources */,
+				3A34E8EB1AA83D7000103F8D /* ZhugePush.m in Sources */,
+				3A77DF4F1A89BA4D00D2AA93 /* NotificationChecker.m in Sources */,
+				3A77DEF01A89B31200D2AA93 /* ZhugeAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A77DEF91A89B31200D2AA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A77DEFA1A89B31200D2AA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A77DEFC1A89B31200D2AA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A77DEFD1A89B31200D2AA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A77DEE51A89B31200D2AA93 /* Build configuration list for PBXProject "ZhugeAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A77DEF91A89B31200D2AA93 /* Debug */,
+				3A77DEFA1A89B31200D2AA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A77DEFB1A89B31200D2AA93 /* Build configuration list for PBXNativeTarget "ZhugeAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A77DEFC1A89B31200D2AA93 /* Debug */,
+				3A77DEFD1A89B31200D2AA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A77DEE21A89B31200D2AA93 /* Project object */;
+}

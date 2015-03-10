@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB1C4A73-7A01-4654-933F-1E4EE3822A1A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZhugeAnalytics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6D4B3D7046F714711F74B8376A0A95C4725C0E10</key>
+		<string>https://github.com/zhugesdk/zhuge-ios</string>
+		<key>F728794231947D27EF2FA6658B52697CC435E506</key>
+		<string>https://github.com/ChitaGideon/UMAnalyticsANE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZhugeAnalytics/ZhugeAnalytics.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6D4B3D7046F714711F74B8376A0A95C4725C0E10</key>
+		<string>../../..ZhugeAnalytics/ZhugeAnalytics/zhuge-ios</string>
+		<key>F728794231947D27EF2FA6658B52697CC435E506</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChitaGideon/UMAnalyticsANE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F728794231947D27EF2FA6658B52697CC435E506</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F728794231947D27EF2FA6658B52697CC435E506</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZGAnalyticsANE</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6D4B3D7046F714711F74B8376A0A95C4725C0E10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>zhuge-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
