@@ -282,6 +282,11 @@
 		3A77DEFC1A89B31200D2AA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ZHUGE_NO_ADID=1",
+					"DEBUG=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -291,6 +296,7 @@
 		3A77DEFD1A89B31200D2AA93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "ZHUGE_NO_ADID=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

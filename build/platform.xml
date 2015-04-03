@@ -1,7 +1,14 @@
 <platform xmlns="http://ns.adobe.com/air/extension/3.1">
     <sdkVersion>6.0</sdkVersion>
     <linkerOptions>
-        <!-- <option>-libz</option> -->
+      <!-- <option>-libz</option> -->
+        <option>-weak_framework UIKit</option>
+        <option>-weak_framework Foundation</option>
+        <option>-weak_framework CoreTelephony</option>
+        <option>-weak_framework Accelerate</option>
+        <option>-weak_framework SystemConfiguration</option>
+        <option>-weak_framework CoreGraphics</option>
+        <option>-weak_framework QuartzCore</option>
     </linkerOptions>
     <!-- <packagedDependencies> 
 	    <packagedDependency>libMobClickLibrary.a</packagedDependency> 
