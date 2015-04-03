@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A34E8E91AA83D7000103F8D /* Zhuge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */; };
 		3A34E8EA1AA83D7000103F8D /* ZhugeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */; };
-		3A34E8EB1AA83D7000103F8D /* ZhugePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DF231A89B31D00D2AA93 /* ZhugePush.m */; };
 		3A77DEEE1A89B31200D2AA93 /* ZhugeAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A77DEED1A89B31200D2AA93 /* ZhugeAnalytics.h */; };
 		3A77DEF01A89B31200D2AA93 /* ZhugeAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77DEEF1A89B31200D2AA93 /* ZhugeAnalytics.m */; };
 		3A77DF401A89B3C000D2AA93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A77DF3F1A89B3C000D2AA93 /* UIKit.framework */; };
@@ -44,8 +43,6 @@
 		3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zhuge.m; sourceTree = "<group>"; };
 		3A77DF201A89B31D00D2AA93 /* ZhugeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhugeConfig.h; sourceTree = "<group>"; };
 		3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhugeConfig.m; sourceTree = "<group>"; };
-		3A77DF221A89B31D00D2AA93 /* ZhugePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhugePush.h; sourceTree = "<group>"; };
-		3A77DF231A89B31D00D2AA93 /* ZhugePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhugePush.m; sourceTree = "<group>"; };
 		3A77DF3E1A89B32200D2AA93 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 		3A77DF3F1A89B3C000D2AA93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A77DF411A89B3C600D2AA93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -136,8 +133,6 @@
 				3A77DF1F1A89B31D00D2AA93 /* Zhuge.m */,
 				3A77DF201A89B31D00D2AA93 /* ZhugeConfig.h */,
 				3A77DF211A89B31D00D2AA93 /* ZhugeConfig.m */,
-				3A77DF221A89B31D00D2AA93 /* ZhugePush.h */,
-				3A77DF231A89B31D00D2AA93 /* ZhugePush.m */,
 			);
 			name = Zhuge;
 			path = "zhuge-ios/Zhuge";
@@ -202,7 +197,6 @@
 			files = (
 				3A34E8E91AA83D7000103F8D /* Zhuge.m in Sources */,
 				3A34E8EA1AA83D7000103F8D /* ZhugeConfig.m in Sources */,
-				3A34E8EB1AA83D7000103F8D /* ZhugePush.m in Sources */,
 				3A77DF4F1A89BA4D00D2AA93 /* NotificationChecker.m in Sources */,
 				3A77DEF01A89B31200D2AA93 /* ZhugeAnalytics.m in Sources */,
 			);

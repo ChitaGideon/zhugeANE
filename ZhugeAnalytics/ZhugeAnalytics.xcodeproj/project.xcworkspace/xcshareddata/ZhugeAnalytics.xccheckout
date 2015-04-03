@@ -12,7 +12,7 @@
 	<dict>
 		<key>6D4B3D7046F714711F74B8376A0A95C4725C0E10</key>
 		<string>https://github.com/zhugesdk/zhuge-ios</string>
-		<key>F728794231947D27EF2FA6658B52697CC435E506</key>
+		<key>C8418C659125EF92393ECCAF4F69F03C031C89B8</key>
 		<string>https://github.com/ChitaGideon/UMAnalyticsANE.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>6D4B3D7046F714711F74B8376A0A95C4725C0E10</key>
 		<string>../../..ZhugeAnalytics/ZhugeAnalytics/zhuge-ios</string>
-		<key>F728794231947D27EF2FA6658B52697CC435E506</key>
+		<key>C8418C659125EF92393ECCAF4F69F03C031C89B8</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -29,14 +29,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F728794231947D27EF2FA6658B52697CC435E506</string>
+	<string>C8418C659125EF92393ECCAF4F69F03C031C89B8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F728794231947D27EF2FA6658B52697CC435E506</string>
+			<string>C8418C659125EF92393ECCAF4F69F03C031C89B8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ZGAnalyticsANE</string>
 		</dict>

@@ -27,7 +27,7 @@ void didRegisterForRemoteNotificationsWithDeviceToken(id self, SEL _cmd, UIAppli
     NSLog(@"My token is: %@", deviceToken);
     
 //    [UMessage registerDeviceToken:deviceToken];
-     [[Zhuge sharedInstance].push registerDeviceToken:deviceToken];
+     [[Zhuge sharedInstance] registerDeviceToken:deviceToken];
     if ( myCtx != nil )
     {
         tokenString = [[[[deviceToken description]
@@ -55,7 +55,7 @@ void didFailToRegisterForRemoteNotificationsWithError(id self, SEL _cmd, UIAppli
 //custom implementations of empty signatures above. Used for push notification delegate implementation.
 void didReceiveRemoteNotification(id self, SEL _cmd, UIApplication* application,NSDictionary *userInfo)
 {
-    [[Zhuge sharedInstance].push handleRemoteNotification:userInfo];
+    [[Zhuge sharedInstance] handleRemoteNotification:userInfo];
     //    if ( myCtx != nil )
     //    {
     //        NSString *stringInfo = [AirPushNotification convertToJSonString:userInfo];
@@ -167,12 +167,12 @@ FREObject startAnaly(FREContext context, void* funcData, uint32_t argc, FREObjec
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_7_1
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
-        [zhuge.push registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |
+        [zhuge registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |
                                                         UIUserNotificationTypeSound |
                                                         UIUserNotificationTypeAlert)
                                             categories:nil];
     } else {
-        [zhuge.push registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
+        [zhuge registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
                                                         UIRemoteNotificationTypeSound |
                                                         UIRemoteNotificationTypeAlert)
                                             categories:nil];
