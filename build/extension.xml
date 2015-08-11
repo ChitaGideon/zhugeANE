@@ -39,7 +39,7 @@
 
 		<platform name="Android-ARM"> 
 			<applicationDeployment> 
-				<nativeLibrary>libZhuge.jar</nativeLibrary> 
+				<nativeLibrary>libZhugeAnalytics.jar</nativeLibrary> 
 				<initializer>ZhugeExtension</initializer> 
 				<finalizer>ZhugeExtension</finalizer> 
 			</applicationDeployment> 

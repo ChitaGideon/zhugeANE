@@ -121,6 +121,7 @@ FREObject startAnaly(FREContext context, void* funcData, uint32_t argc, FREObjec
     const uint8_t* appKey;
     const uint8_t* channelID;
     const uint8_t* version;
+    uint32_t isLog;
     uint32_t isDebug;
     uint32_t stringLength;
     NSString *appKeyString = nil;
@@ -138,14 +139,23 @@ FREObject startAnaly(FREContext context, void* funcData, uint32_t argc, FREObjec
     if(argv[2] && (FREGetObjectAsUTF8(argv[2], &stringLength, &version) == FRE_OK)){
         versionString = [NSString stringWithUTF8String:(char*)version];
     }
-    if(argv[3] && (FREGetObjectAsBool(argv[3], &isDebug) == FRE_OK)){
-        NSLog(@"打开SDK日志打印  %u",isDebug);
-        if(isDebug)
+    if(argv[3] && (FREGetObjectAsBool(argv[3], &isLog) == FRE_OK)){
+        NSLog(@"打开SDK日志打印  %u",isLog);
+        if(isLog)
         {
 //            [MobClick setLogEnabled:YES];
             // 打开SDK日志打印
             
             [zhuge.config setLogEnabled:YES]; // 默认关闭
+        }
+    }
+    if(argv[4] && (FREGetObjectAsBool(argv[3], &isDebug) == FRE_OK)){
+        NSLog(@"打开SDK DEBUG模式  %u",isDebug);
+        if(isDebug)
+        {
+            // 打开SDK调试打印
+            
+            [zhuge.config setDebug:YES]; // 默认关闭
         }
     }
     

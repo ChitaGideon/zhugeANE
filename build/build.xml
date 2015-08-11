@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Air Native Extension Build Scripts" default="iosall">
+<project name="Air Native Extension Build Scripts" default="all">
 
 	<!-- Config -->
 	<property file="build.properties"/>
 
 	<!-- All -->
-	<target name="all" depends="ios,ios-simulator,android,swc-mobile,swc-default,package" description="Full build of extension"/>
+	<target name="all" depends="android,ios,ios-simulator,swc-mobile,swc-default,package" description="Full build of extension"/>
   <target name="iosall" depends="ios,ios-simulator,swc-mobile,swc-default,packageIOS" description="Full build of ios extension"/> 
 
 	<!-- iOS -->
@@ -20,7 +20,6 @@
 		<exec executable="xcodebuild" failonerror="true" dir="../${name}/">
 			<arg line="-project ${name}.xcodeproj"/>
 			<arg line="-sdk ${ios.sdkversion}"/>
-			<arg line="-arch armv7"/>
 			<arg line="-alltargets"/>
 			<arg line="-configuration Release"/>
 			<arg line="SYMROOT=../temp/ios/build/"/>
@@ -59,17 +58,23 @@
 		<delete dir="../android/temp"/>
 		<mkdir dir="../android/temp/classes"/>
 
-		<javac source="1.6" srcdir="../${name}Andorid/src" destdir="../android/temp/classes" includeantruntime="on" debug="true">
+    <javac source="1.6" srcdir="../${name}Android/src" destdir="../android/temp/classes" includeantruntime="on" debug="true">
 			<classpath>
 				<pathelement location="${android.sdk}/android.jar"/>
 				<pathelement location="${FLEX_HOME}/lib/android/FlashRuntimeExtensions.jar"/>
-				<pathelement location="../${name}Andorid/libs/umeng_sdk.jar"/>
+                 <pathelement location="../${name}Android/libs/android-support-v4.jar"/>
+                <pathelement location="../${name}Android/libs/zhugepush_0.11.jar"/>
+                <pathelement location="../${name}Android/libs/zhugesdk_1.3.jar"/>
+
 			</classpath>
 		</javac>
 
 		<mkdir dir="../android/temp/zip"/>
-		<unzip src="../${name}Andorid/libs/umeng_sdk.jar" dest="../android/temp/zip"/>
-		<copydir src="../android/temp/zip/com" dest="../android/temp/classes/com"/>
+            <unzip src="../${name}Android/libs/android-support-v4.jar" dest="../android/temp/zip"/>
+        <unzip src="../${name}Android/libs/zhugepush_0.11.jar" dest="../android/temp/zip"/>
+        <unzip src="../${name}Android/libs/zhugesdk_1.3.jar" dest="../android/temp/zip"/>
+
+		<copydir src="../android/temp/zip" dest="../android/temp/classes"/>
 
 		<mkdir dir="../temp/android/"/>
 		<jar basedir="../android/temp/classes" destfile="../temp/android/lib${name}.jar"/>

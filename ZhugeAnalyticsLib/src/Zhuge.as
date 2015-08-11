@@ -63,10 +63,10 @@ package
 //				extensionContext.call('onResume');
 //		}
 
-		public function init(appkey:String="", channelID:String="",version:String="", isDebug:Boolean=false):void
+		public function init(appkey:String="", channelID:String="",version:String="",isLog:Boolean=false,isDebug:Boolean=false):void
 		{
 			if (extensionContext)
-				extensionContext.call('startAnaly', appkey, channelID,version, isDebug);
+				extensionContext.call('startAnaly', appkey, channelID,version,isLog, isDebug);
 		}
 
 //		public function onPause():void
